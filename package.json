@@ -1,0 +1,21 @@
+{
+  "name": "golang-compiler",
+  "version": "1.0.0",
+  "description": "A Golang code execution server using Node.js, Docker, and worker threads.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
